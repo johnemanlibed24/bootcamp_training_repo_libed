@@ -1,0 +1,40 @@
+{
+  "Products": [
+    {
+      "ProductID": 1001,
+      "ProductName": "Samsung Galaxy S23",
+      "SupplierID": "Samsung",
+      "CategoryID": 1,
+      "QuantityPerUnit": "20 units",
+      "UnitPrice": 342,
+      "UnitsInStock": 39,
+      "UnitsOnOrder": 0,
+      "ReorderLevel": 10,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 2,
+      "ProductName": "Google Pixel 8",
+      "SupplierID": "Google",
+      "CategoryID": 1,
+      "QuantityPerUnit": "24 units",
+      "UnitPrice": 374,
+      "UnitsInStock": 17,
+      "UnitsOnOrder": 40,
+      "ReorderLevel": 25,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 3,
+      "ProductName": "OnePlus 12",
+      "SupplierID": "OnePlus",
+      "CategoryID": 1,
+      "QuantityPerUnit": "12 units",
+      "UnitPrice": 520,
+      "UnitsInStock": 13,
+      "UnitsOnOrder": 70,
+      "ReorderLevel": 25,
+      "Discontinued": true
+    }
+  ]
+}
