@@ -6,7 +6,7 @@ function numberToWords(num) {
   var words = "";
   
   if( num < 1 || num > 999){
-    return "Number Out of range"
+    return "Number Out of range";
   }
   else {
   
