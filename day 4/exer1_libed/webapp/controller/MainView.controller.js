@@ -58,12 +58,6 @@ sap.ui.define([
             if (oInputFNameValue === "" || oInputLNameValue === "") {
                 sap.m.MessageToast.show("Required Field is blank");
             }
-         },
-
-         onAddItem: function () {
-            var oTextBundle = this.getOwnerComponent().getModel("i18n").getResourceBundle();
-            var sMsg = oTextBundle.getText("addButtonMsg");
-            this.fnDisplayMsg(sMsg);
-        }
+         }
     });
 });
